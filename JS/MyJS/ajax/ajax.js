@@ -19,7 +19,6 @@ function ajaxOnlyGET(link) {
   async: false,
   type: 'GET',
   url: link,
-  data: data,
   success: function(response){session("set","successAjax", JSON.stringify(response))},
   error: function(response){session("set","errorAjax", JSON.stringify(response))},
  });
