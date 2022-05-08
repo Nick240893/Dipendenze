@@ -1,5 +1,5 @@
 //AJAX
-function ajax(type,link,token,data) {
+function ajax(type,link,data,token) {
  ['successAjax', 'errorAjax'].forEach(function(key) {local("del",key)});
  $.ajax({
   async: false,
