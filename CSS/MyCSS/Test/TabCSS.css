@@ -8,7 +8,7 @@
 }
 
 /* Style tab links */
-.tablink {
+.tablinkStyle {
   background-color: #555;
   color: white;
   float: left;
@@ -20,12 +20,12 @@
   width: 33%;
 }
 
-.tablink:hover {
+.tablinkStyle:hover {
   background-color: #777;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
+.tabcontentStyle {
   color: black;
   display: none;
   padding: 50px 20px;
